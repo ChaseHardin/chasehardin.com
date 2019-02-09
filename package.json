@@ -24,7 +24,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "chai": "^4.2.0",
     "cypress": "^3.1.5",
+    "dirty-chai": "^2.0.1",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.9.1",
     "mocha": "^5.2.0"
