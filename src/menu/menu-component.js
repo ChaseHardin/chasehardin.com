@@ -1,20 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './menu-component.css';
 
 export default function Menu() {
     return (
         <ul className="menu nav navbar navbar-dark bg-dark justify-content-center">
-            <li name='home' className="nav-item">
-                <a className="nav-link" href="#">Home</a>
+            <li className="nav-item">
+                <Link to='/'>
+                    <span className="nav-link">Home</span>
+                </Link>
             </li>
-            <li name='blog' className="nav-item">
-                <a className="nav-link" href="#">Blog</a>
+            <li className="nav-item">
+                <Link to='/blog'>
+                    <span className="nav-link">Blog</span>
+                </Link>
             </li>
-            <li name='tutorials' className="nav-item">
-                <a className="nav-link" href="#">Tutorials</a>
+            <li className="nav-item">
+                <Link to='/tutorials'>
+                    <span className="nav-link">Tutorials</span>
+                </Link>
             </li>
-            <li name='contact' className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+            <li className="nav-item">
+                <Link to='/contact'>
+                    <span className="nav-link">Contact</span>
+                </Link>
             </li>
         </ul>
     );

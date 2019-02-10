@@ -1,7 +1,9 @@
 .menu a {
-    color: #999;    
+    color: #999;
+    font-weight: bold;
 }
 
 .menu a:hover{
     color: white;
+    text-decoration: none;
 }
